@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeData.API", "RealTimeData.API\RealTimeData.API.csproj", "{8D65520C-6035-4BDF-99D7-DC2D35222970}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AE808D7B-1794-4D3F-ADEE-BD22B9BD58B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KafkaTestProducer", "KafkaTestProducer\KafkaTestProducer.csproj", "{2D655A24-5E67-4B3C-BD87-0DF72012A090}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D65520C-6035-4BDF-99D7-DC2D35222970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D65520C-6035-4BDF-99D7-DC2D35222970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D65520C-6035-4BDF-99D7-DC2D35222970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D65520C-6035-4BDF-99D7-DC2D35222970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE808D7B-1794-4D3F-ADEE-BD22B9BD58B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE808D7B-1794-4D3F-ADEE-BD22B9BD58B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE808D7B-1794-4D3F-ADEE-BD22B9BD58B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE808D7B-1794-4D3F-ADEE-BD22B9BD58B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D655A24-5E67-4B3C-BD87-0DF72012A090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D655A24-5E67-4B3C-BD87-0DF72012A090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D655A24-5E67-4B3C-BD87-0DF72012A090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D655A24-5E67-4B3C-BD87-0DF72012A090}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4464A295-45D5-4BA3-A551-C49250D94370}
+	EndGlobalSection
+EndGlobal
